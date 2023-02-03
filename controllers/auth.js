@@ -21,7 +21,6 @@ const login = (req,res) =>{
                 password:password,
                 msg:'user has started session'
             })
-           // console.log(req.cookies.newuser.email)
         }else{
            return res.json({
                 ok:false,
